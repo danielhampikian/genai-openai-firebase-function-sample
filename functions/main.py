@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 openai.api_key = os.getenv("OPEN_AI")
 
+
 @app.route('/')
 def hello_world():
     return 'Hello, Firebase Cloud Functions with Python'
